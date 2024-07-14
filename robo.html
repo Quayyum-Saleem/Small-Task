@@ -3,11 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title>     
+    <style>
+         h1{
+            text-align: center;
+            text-decoration: double underline;
+        }
+         body{
+            background-color: rgb(77, 231, 167);
+        }
+        
+    </style>
 </head>
-<body bgcolor="skyblue">
-    <img src="C:\Users\Muhammad Quayyum\Desktop\download.jpg">
-    <br>
-    <a href="Task.html">previous page</a>
+<body>
+    
+    <table align="center" cellpadding="5">
+        <tr>
+            <td><h1>Student Registration Form</h1></td>
+        </tr>
+        
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" placeholder="Name"></td>
+            <br>
+            <br>
+        </tr>
+        <tr>
+            <td>Father Name:</td>
+            <td><input type="text" name="value"></td>
+            <br>
+            <br>
+        </tr>
+        <tr>
+            <td>Mother Name:</td>
+            <td><input type="text" name="value"></td>
+            <br>
+            <br>
+        </tr>
+        <tr>
+            <td>Phone No:</td>
+            <td><input type="text" name="value"></td>
+            <br>
+            <br>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text"placeholder="Email"></td>
+            <br>
+            <br>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td><input type="radio" name="type" value="Male">Male
+                <input type="radio" name="type" value="Female">Female</td>
+            <br>
+            <br>
+        </tr>
+        <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" name="birth"></td>
+            <br>
+            <br>
+        </tr>
+        <tr>
+           <td> Address:</td>
+            <td><input type="text" placeholder="Street-House-Road"></td>
+            <br>
+            <br>
+        </tr>
+        <tr>
+            <td>Blood Group:</td>
+            <td><select Name="Blood group">
+                <option placeholder="select">select</option>
+                <option value="O">O</option>
+                <option value="O+">O+</option>
+                <option value="A">A</option>
+                <option value="A+">A+</option>
+                <option value="B">B</option>
+                <option value="B+">B+</option>
+            </select></td>
+            <br>
+    </tr>
+    <tr>
+            <td>Department:</td>
+            <td><input type="radio" name="type" value="CSE">CSE
+                <input type="radio" name="type" value="EEE">EEE
+                <input type="radio" name="type" value="ECE">ECE
+                <input type="radio" name="type" value="AI">AI
+                <br></td>
+    </tr>
+    <tr>
+            <td>Course:</td>
+            <td><input type="checkbox">C
+                <input type="checkbox">C++
+                <input type="checkbox">Phython
+                <input type="checkbox">Java
+                <input type="checkbox">Data Science
+                <input type="checkbox">Machine Learning
+                <br></td>
+    </tr>
+    <tr>
+            <td>Photo:</td>
+            <td><input type="file" name="file" placeholder="chose File">
+                <br></td>
+    </tr>
+    <tr>
+            <td>Submit:</td>
+            <td><input type="Submit" name="Submit"></td>
+    </tr>
+    </table>
 </body>
 </html>
